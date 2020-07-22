@@ -1,0 +1,47 @@
+{
+  "version": "1.0.13",
+  "platform": [
+    {
+      "id":300,
+      "name":"PICO-KBU4",
+      "pin_count": 100,
+      "gpio_count": 4,
+      "hwmon_count":20
+    }
+  ],
+  "layout": [
+    {"label": "DIO0"},
+    {"label": "DIO1"},
+    {"label": "DIO2"},
+    {"label": "DIO3"},
+    {"label": ""}
+  ],
+  "GPIO": [
+    { "index": 0, "rawpin": 504, "input_cap": 1, "output_cap": 1},
+    { "index": 1, "rawpin": 505, "input_cap": 1, "output_cap": 1},
+    { "index": 2, "rawpin": 506, "input_cap": 1, "output_cap": 1},
+    { "index": 3, "rawpin": 507, "input_cap": 1, "output_cap": 1}
+  ],
+  "HWMON": [
+    { "index": 50, "value": 1.0, "name": "calCPUTemp", "path": "/sys/devices/platform/f71882fg.2576/temp1_input"},
+    { "index": 51, "value": -1.0, "name": "calCHIPSETTemp", "path": ""},
+    { "index": 52, "value": 1.0, "name": "calSYSTemp", "path": "/sys/devices/platform/f71882fg.2576/temp2_input"},
+    { "index": 53, "value": 1.0, "name": "calVcore", "path": "/sys/devices/platform/f71882fg.2576/in1_input"},
+    { "index": 54, "value": 2.0, "name": "cal3V3", "path": "/sys/devices/platform/f71882fg.2576/in0_input"},
+    { "index": 55, "value": 2.0, "name": "calVBAT", "path": "/sys/devices/platform/f71882fg.2576/in8_input"},
+    { "index": 56, "value": -1.0, "name": "cal5V", "path": ""},
+    { "index": 57, "value": -1.0, "name": "cal12V", "path": ""},
+    { "index": 58, "value": 1.0, "name": "calVMEM", "path": "/sys/devices/platform/f71882fg.2576/in2_input"},
+    { "index": 59, "value": 1.0, "name": "calCPU", "path": "/sys/devices/platform/f71882fg.2576/fan1_input"},
+    { "index": 60, "value": -1.0, "name": "calSYS", "path": ""},
+    { "index": 61, "value": 1.0, "name": "calCPUPWM", "path": "/sys/devices/platform/f71882fg.2576/pwm1"},
+    { "index": 62, "value": 1.0, "name": "calCPUPWMEN", "path": "/sys/devices/platform/f71882fg.2576/pwm1_enable"},
+    { "index": 63, "value": -1.0, "name": "calSYS1PWM", "path": ""},
+    { "index": 64, "value": -1.0, "name": "calSYS1PWMEN", "path": ""},
+    { "index": 65, "value": -1.0, "name": "calSYS2PWM", "path": ""},
+    { "index": 66, "value": -1.0, "name": "calSYS2PWMEN", "path": ""},
+    { "index": 67, "value": -1.0, "name": "cal5VSB", "path": ""},
+    { "index": 68, "value": -1.0, "name": "cal3VSB", "path": ""},
+    { "index": 69, "value": -1.0, "name": "cal20V", "path": ""}
+  ]
+}
